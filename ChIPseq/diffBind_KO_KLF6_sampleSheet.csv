@@ -1,0 +1,9 @@
+SampleID,Factor,Condition,Treatment,Replicate,bamReads,bamControl,ControlID,Peaks,PeakCaller
+sgNTC_D3701_H3K4me3,H3K4me3,sgNTC,sgNTC,1,/chipseq_data/UMR/AR0038.sorted.bam,/chipseq_data/UMR/AR0037.sorted.bam,AR0037,/chipseq_data/macs2/sgNTC_D3701_H3K4me3_peaks.narrowPeak,macs
+sgNTC_D3701_H3K27ac,H3K27ac,sgNTC,sgNTC,1,/chipseq_data/UMR/AR0039.sorted.bam,/chipseq_data/UMR/AR0037.sorted.bam,AR0037,/chipseq_data/macs2/sgNTC_D3701_H3K27ac_peaks.narrowPeak,macs
+sgKLF6_D3701_H3K4me3,H3K4me3,sgKLF6,sgKLF6,1,/chipseq_data/UMR/AR0041.sorted.bam,/chipseq_data/UMR/AR0040.sorted.bam,AR0040,/chipseq_data/macs2/sgKLF6_D3701_H3K4me3_peaks.narrowPeak,macs
+sgKLF6_D3701_H3K27ac,H3K27ac,sgKLF6,sgKLF6,1,/chipseq_data/UMR/AR0042.sorted.bam,/chipseq_data/UMR/AR0040.sorted.bam,AR0040,/chipseq_data/macs2/sgKLF6_D3701_H3K27ac_peaks.narrowPeak,macs
+sgNTC_D3620_H3K4me3,H3K4me3,sgNTC,sgNTC,2,/chipseq_data/UMR/AR0044.sorted.bam,/chipseq_data/UMR/AR0043.sorted.bam,AR0043,/chipseq_data/macs2/sgNTC_D3620_H3K4me3_peaks.narrowPeak,macs
+sgNTC_D3620_H3K27ac,H3K27ac,sgNTC,sgNTC,2,/chipseq_data/UMR/AR0045.sorted.bam,/chipseq_data/UMR/AR0043.sorted.bam,AR0043,/chipseq_data/macs2/sgNTC_D3620_H3K27ac_peaks.narrowPeak,macs
+sgKLF6_D3620_H3K4me3,H3K4me3,sgKLF6,sgKLF6,2,/chipseq_data/UMR/AR0047.sorted.bam,/chipseq_data/UMR/AR0046.sorted.bam,AR0046,/chipseq_data/macs2/sgKLF6_D3620_H3K4me3_peaks.narrowPeak,macs
+sgKLF6_D3620_H3K27ac,H3K27ac,sgKLF6,sgKLF6,2,/chipseq_data/UMR/AR0048.sorted.bam,/chipseq_data/UMR/AR0046.sorted.bam,AR0046,/chipseq_data/macs2/sgKLF6_D3620_H3K27ac_peaks.narrowPeak,macs
