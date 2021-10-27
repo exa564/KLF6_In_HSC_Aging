@@ -1,0 +1,7 @@
+SubNumber	SampleID	SampleName	Replicate	condition	donorid	Sex	Age	AgeGroup	Batch	SeqBatch
+1	AR0021	NTC_Enh_1	E1	NTC	A3539	female	26	young	1	1
+2	AR0022	KLF6_KO_Enh_1	E1	EnhKO	A3539	female	26	young	1	1
+3	AR0023	NTC_Enh_2	E2	NTC	A3618	female	31	young	1	1
+4	AR0024	KLF6_KO_Enh_2	E2	EnhKO	A3618	female	31	young	1	1
+5	AR0025	NTC_Enh_3	E3	NTC	A3618	female	31	young	1	1
+6	AR0026	KLF6_KO_Enh_3	E3	EnhKO	A3618	female	31	young	1	1
