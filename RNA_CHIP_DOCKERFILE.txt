@@ -1,0 +1,80 @@
+FROM continuumio/miniconda3:4.7.12
+MAINTAINER "Emmalee Adelman" exa564@med.miami.edu
+#miniconda image version 4.7.12
+
+
+# Install OS packages
+# Add conda channels
+# Install packages with conda
+
+RUN apt-get update && apt-get install -y \
+        apt-utils \
+        sudo \
+        locales \
+        fonts-liberation \
+        libzmq3-dev \
+        libcurl4-openssl-dev \
+        libssl-dev \
+        virtualenv \
+        curl \
+        nano \
+        neovim \
+        vim \
+        rsync \
+        build-essential \
+        zip \
+        && conda config --remove channels defaults \
+        && conda config --add channels defaults \
+        && conda config --add channels r \
+        && conda config --add channels bioconda \
+        && conda config --add channels conda-forge \
+        #&& conda update --all \
+        && conda install -c r \
+                r-irkernel \
+                r-base \
+                r-rcolorbrewer \
+                r-reshape2 \
+                r-pheatmap \
+                r-devtools \
+                r-tidyr \
+                r-ggplot2 \
+        && conda install -c conda-forge \
+                nodejs \
+                jupyterlab \
+                scikit-learn \
+                awscli \
+        && conda install -c bioconda \
+                bowtie2=2.3.5 \
+                samtools=1.9 \ 
+                bamtools=2.5.1 \
+                deeptools=3.3.1 \
+                bwa=0.7.17 \
+                cutadapt=2.6 \
+                trimmomatic=0.39 \
+                macs2=2.2.4 \
+                seacr \
+                idr=2.0.4.2 \
+                fastqc=0.11.8 \
+                pybedtools=0.8.0 \
+                picard=2.21.2 \
+                homer=4.10 \
+                subread \
+                pysam \
+                phantompeakqualtools \
+                preseq \
+                multiqc \
+                bedtools=2.29.0 \
+                star \
+                meme \
+        && mkdir -p /UCSC \
+        && cd UCSC/ \
+        && rsync -aP rsync://hgdownload.soe.ucsc.edu/genome/admin/exe/linux.x86_64/bedGraphToBigWig ./ 
+
+
+
+
+
+             
+
+
+
